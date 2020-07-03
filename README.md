@@ -15,7 +15,7 @@ script.
 into the command prompt window when prompted for the location)
 
 3. Enter the length of the song (simply the length in time found
-in the .ogg file)
+in the .ogg file) as well as the note offset (more on that later)
 
 4. If everything works out, it should tell you that it succeeded
 in creating the new function files, and they can be found next to
@@ -39,3 +39,22 @@ generated main and track mcfunction files.
 10. Place the map within your saves file and load the map!
 From here the process is the same as PhoenixSC's original
 map!
+
+### NOTE OFFSET
+Due to issues that I have currently, songs will not line up without some trial and error,
+by entering a number here you can either lengthen (negative) or shorten (positive) the
+time it takes for the first note to reach the bottom of the fret board.
+
+### Editing
+Feel free to request edits / report issues to this repo as any help is great!
+
+### Known Issues
+* All notes of songs do not always get converted (longer songs in particular).
+* Timing issues (as above with note offset)
+If you find more issues, PLEASE report them!
+
+### TO DO
+* Attempt to automate note offset.
+* Test more songs to ensure that conversion is smooth and does not lose notes.
+* Fix length/accuracy to ensure that songs do not end too soon or too late, and the accuracy is appropriate for the number of notes.
+* Potentially add a GUI instead of command line.
