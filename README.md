@@ -1,6 +1,6 @@
 # GH2MC
 This is a converter from Guitar Hero Charts (notes.chart) to 
-[PhoenixSC's Guitar Hero in Minecraft Map.](http://phoenixsc.me/download-links/guitar-hero-1-16-1/)
+[PhoenixSC's Guitar Hero in Minecraft Map.](http://phoenixsc.me/download-links/guitar-hero-1-16-1/){:target="_blank"}.
  
 This is written in Python, and (as far as I have tested) works
 on Windows, though MacOS/Linux may work as well (untested).
